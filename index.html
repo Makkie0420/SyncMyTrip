@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>SyncMyTrip</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="r"></i> SyncMyTrip
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#app" class="nav__link">App</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/1.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Find a buddy <br> create a journey
+                    </h1>
+                    <p class="home__description">
+                        a platform designed to connect travelers based on shared destinations, interests, and schedules.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/img/2.png" alt="" class="about__img" style="width: 200%; height: auto; max-width: 600px;">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Who we really are & <br> why choose us
+                    </h2>
+
+                    <p class="about__description">
+                        SyncMyTrip is designed as an innovative mobile application that helps travelers connect with potential travel buddies.
+                    </p>
+
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Priority travel matching.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Access to exclusive travel deals and promotions.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Secure in-app messaging.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> AI-powered matchmaking system.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button--link button--flex">
+                            Download Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== STEPS ====================-->
+        <section class="steps section container">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    Steps to get started with <br> SyncMyTrip
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Create Your Profile</h3>
+                        <p class="steps__card-description">
+                            Sign up and set up your travel preferences to start connecting with like-minded travelers.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Find Your Match</h3>
+                        <p class="steps__card-description">
+                            Use our AI-powered matchmaking system to find travel companions based on shared interests and destinations.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Plan & Travel</h3>
+                        <p class="steps__card-description">
+                            Chat securely, share itineraries, and enjoy a seamless travel experience with verified travelers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="product section container" id="app">
+            <h2 class="section__title-center">
+                Check out our <br> Mobile App
+            </h2>
+
+            <p class="product__description">
+                SyncMyTrip offers a comprehensive mobile application designed to connect solo travelers with like-minded companions, making travel more social, secure, and enjoyable. The app features an AI-powered matchmaking system that pairs travelers based on shared
+                interests, destinations, and travel styles.
+            </p>
+
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/11.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Fast</h3>
+
+                    <!--<span class="product__price">$19.99</span>
+                   <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>-->
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+                    <img src="assets/img/12.png" alt="" class="product__img">
+                    <h3 class="product__title">Secured</h3>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+                    <img src="assets/img/13.png" alt="" class="product__img">
+                    <h3 class="product__title">Clean Code</h3>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+                    <img src="assets/img/15.png" alt="" class="product__img">
+                    <h3 class="product__title">Easy to use</h3>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                Frequently Asked Questions <br> About SyncMyTrip
+            </h2>
+
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How does the AI-powered matchmaking work?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                SyncMyTrip uses an AI-powered system to match travelers based on shared interests, destinations, and travel styles, ensuring you find the best travel companion.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Is SyncMyTrip safe to use?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Yes! SyncMyTrip provides user verification, secure in-app messaging, and privacy protection to ensure a safe and reliable travel experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Can I customize my travel preferences?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Absolutely! You can set your preferred travel style, destinations, and interests in your profile to get the best matches tailored to your needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do I contact my matched travel buddy?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Once matched, you can start a conversation through our secure in-app messaging feature, ensuring safe and seamless communication.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                What features are available in the premium version?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                The premium version offers priority travel matching, detailed weather updates, verified traveler badges, advanced search filters, and exclusive travel deals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do I get free premium access?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                You can earn **1 month of free premium access** for every 3 referrals who sign up and start using SyncMyTrip.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TEAM SECTION ====================-->
+        <section class="team section container">
+            <h2 class="section__title-center team__title">
+                Meet Our Team
+            </h2>
+
+            <p class="team__description">
+                SyncMyTrip was founded with a passion for travel and a mission to transform solo journeys into shared, meaningful experiences. As third-year Tourism Management students, we recognize the challenges solo travelers face whether it’s loneliness, safety concerns,
+                or difficulty in finding compatible travel companions. With this in mind, we developed SyncMyTrip, a platform designed to connect travelers based on shared destinations, interests, and schedules.
+            </p>
+
+            <div class="team__container">
+                <img src="assets/img/team.png" alt="SyncMyTrip Team" class="team__img">
+            </div>
+        </section>
+
+        <!--==================== INLINE CSS FOR TEAM SECTION ====================-->
+        <style>
+            .team__description {
+                text-align: center;
+                font-size: 1.1rem;
+                color: #555;
+                /* Adjust color to match your theme */
+                margin: 10px auto 20px;
+                max-width: 600px;
+                line-height: 1.5;
+            }
+            
+            .team__img {
+                width: 100%;
+                max-width: 800px;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+        <!--==================== PHILIPPINES MAP SECTION ====================-->
+        <section class="map section container">
+            <h2 class="section__title-center map__title">
+                Explore Top Travel Destinations in the Philippines
+            </h2>
+
+            <p class="map__description">
+                Discover must-visit places like Palawan, Boracay, Cebu, Bohol, and more! SyncMyTrip helps you connect with travel buddies to explore these beautiful destinations together with SyncMyTrip.
+            </p>
+            <!-- Interactive Google Map -->
+            <div class="map__container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31224.598244033805!2d121.90662945352356!3d11.96932438150451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a53c2f324b4ee7%3A0xa738e81e5e6dda36!2sBoracay!5e0!3m2!1sen!2sph!4v1740303821614!5m2!1sen!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </iframe>
+            </div>
+        </section>
+
+        <!--==================== INLINE CSS FOR MAP SECTION ====================-->
+        <style>
+            .map__description {
+                text-align: center;
+                font-size: 1.1rem;
+                color: #555;
+                margin: 10px auto 20px;
+                max-width: 600px;
+                line-height: 1.5;
+            }
+            
+            .map__container {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            
+            .map__img {
+                width: 90%;
+                max-width: 800px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            
+            iframe {
+                width: 90%;
+                max-width: 800px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+        </style>
+
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Reach out to us today <br> via any of the given <br> information
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Call us for instant support</h3>
+                            <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +6390 6071 4772
+                                </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Write us by mail</h3>
+                            <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    SyncMyTrip@gmail.com
+                                </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <label for="" class="contact__label">Message</label>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class=""></i> SyncMyTrip
+                </a>
+
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
+
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Baliwag City</li>
+                    <li class="footer__information">Philippines</li>
+                    <li class="footer__information">123-456-789</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+6390 6071 4772</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Powered by
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="assets/img/card11.png" alt="" class="footer__card">
+                    <img src="assets/img/12card.png" alt="" class="footer__card">
+                    <img src="assets/img/card12.jpg" alt="" class="footer__card">
+                    <img src="assets/img/card14.png" alt="" class="footer__card">
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Design and created by ChromeShots. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
